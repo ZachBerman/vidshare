@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+gem 'fog'
+
+gem 'figaro'
+
+gem 'carrierwave'
+
 gem 'simple_form'
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
