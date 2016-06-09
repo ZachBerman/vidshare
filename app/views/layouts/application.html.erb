@@ -62,11 +62,41 @@
 
 <div id="footer">
   <div class="container">
+    <div class="col-xs-12 col-sm-3">
       <b>Teachers</b>
-      <Br />
+      <br />
       <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <br />
+      <%= link_to 'My Dashboard', dashboard_path %>
     </div>
+    <div class="col-xs-12 col-sm-3">
+        <b>About</b>
+        <br />
+        <%= link_to 'Team', '#' %>
+        <br />
+        <%= link_to 'Careers', '#' %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>Contact</b>
+        <br />
+        Zberms@gmail.com
+        <br />
+        1234 Street Place
+        <br />
+        Bozeman, MT 59715
+      </div>
+      <div class="col-xs-12 col-sm-3 social">
+        <b>Social</b>
+        <br />
+        <br />
+        <%= link_to 'https://github.com/ZachBerman' do %>
+          <%= image_tag 'github.png' %> &nbsp;
+        <% end %>
+        <%= link_to 'https://www.facebook.com/zach.berman.39' do %>
+          <%= image_tag 'facebook.png' %>
+        <% end %>
+      </div>
   </div>
-
+</div>
 </body>
 </html>
