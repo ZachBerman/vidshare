@@ -1,4 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Kalam);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script);
+
+body {
+  background: url('cork-wallet.png');
+  font-family: 'Kalam', cursive;
+}
 
 .hero {
   background: url('books.jpg') no-repeat center center fixed;
@@ -13,7 +19,6 @@
 .navbar {
   border-radius:0;
   font-size: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
   background: url('nami.png');
@@ -21,7 +26,6 @@
 
 .navbar-inverse .navbar-brand a {
   font-size: 40px;
-  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 600;
   color: white;
   text-decoration: none;
@@ -38,22 +42,15 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty h1 {
-  font-family: "Roboto Condensed", sans-serif;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
 .frosty h2 {
-  font-family: "Roboto Condensed", sans-serif;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
 .btn {
   border-radius: 0;
-}
-
-body {
-  background: url('cork-wallet.png');
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .booyah-box {
@@ -100,7 +97,7 @@ body {
 
 .lesson a {
   color: white;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Kalam', cursive;
   font-weight: 100;
   font-size: 15px;
 }
@@ -145,5 +142,4 @@ ul .header {
 .social a:hover {
   text-decoration: none;
 }
-
 
