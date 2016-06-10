@@ -2,7 +2,10 @@ class StaticPagesController < ApplicationController
   def index
   end
 
-  def privacy
+  def team
+  end
+
+  def idea
   end
 
 end

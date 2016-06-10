@@ -2,7 +2,9 @@ Vidshare::Application.routes.draw do
   devise_for :users
   resource :dashboard, only: [:show]
   root 'static_pages#index'
-  get 'privacy', to: 'static_pages#privacy'
+  get 'team', to: 'static_pages#team'
+  get 'idea', to: 'static_pages#idea'
+  # get 'privacy', to: 'static_pages#privacy'
   resources :courses, only: [:index, :show] do
     resources :enrollments, only: :create
   end
