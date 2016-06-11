@@ -1,8 +1,8 @@
 class EnrollmentsController < ApplicationController
-  before_action :authenticate_user!
+  before_action :authenticate_user! 
 
   def create
-    if current_course.premium?
+    if current_course.premium? 
       # Amount in cents
       @amount = (current_course.cost * 100).to_i
 
@@ -23,6 +23,8 @@ class EnrollmentsController < ApplicationController
   rescue Stripe::CardError => e
     flash[:error] = e.message
     redirect_to root_path
+  else
+    redirect_to root_path 
   end
 
   private
